@@ -1,0 +1,84 @@
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:35] - INFO - ************************************************* 下面是新的一条日志 ***************************************************
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:37] - INFO - 拦截请求的地址：/user/add_friends/；请求的方法：POST
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:38] - INFO - ==================================== headers 头信息 ====================================================
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_AUTHORIZATION Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywidXNlck5hbWUiOiJcdTY1NjNcdTYyNTNcdTU0ZTUiLCJwaG9uZSI6MSwiYXZhdGFyIjoiaHR0cHM6Ly9pbWcyLmJhaWR1LmNvbS9pdC91PTI3NDkxMTk1NzksMzQ5OTE4ODEzMCZmbT0yNTMmZm10PWF1dG8mYXBwPTEzOCZmPUpQRUc_dz01MDAmaD00NzQiLCJpZGVudGl0eSI6Ilx1N2JhMVx1NzQwNlx1NTQ1OCIsImV4cCI6MTAwMDAwMDAwMDAwMDE2NTA0NTg2MjR9.h7X_GPzmJHCGNzOYdtjjdDdeAJmWBF0-xjjlY7vAq_A
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_USER_AGENT PostmanRuntime/7.29.0
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT */*
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_POSTMAN_TOKEN 58f701cc-de1a-463f-842e-936689bcd7e0
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_HOST 172.17.18.203:8000
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT_ENCODING gzip, deflate, br
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:42] - DEBUG - HTTP_CONNECTION keep-alive
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:43] - INFO - 代理IP：172.17.18.203
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:44] - INFO - 真实IP：None
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:45] - INFO - ==================================== request body信息 ==================================================
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:47] - INFO - params参数：<QueryDict: {}>
+2022-04-16 22:05:35,378 - LogMiddleware.py[line:51] - INFO - body参数：{
+    "to":2,
+    "message":"可选，附带消息"
+}
+
+2022-04-16 22:05:35,379 - LogMiddleware.py[line:54] - INFO - ================================== View视图函数内部信息 ================================================
+2022-04-16 22:05:35,513 - LogMiddleware.py[line:76] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常的日志       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:05:35,513 - LogMiddleware.py[line:78] - ERROR - {'code': 1, 'message': '对方暂时不在线,可能稍后处理好友邀请', 'data': {'用户名：': '哭泣哥'}}
+2022-04-16 22:05:35,514 - LogMiddleware.py[line:79] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常日志结束       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:05:35,515 - http_protocol.py[line:245] - DEBUG - HTTP 200 response started for ['172.17.18.203', 60580]
+2022-04-16 22:05:35,516 - http_protocol.py[line:213] - DEBUG - HTTP close for ['172.17.18.203', 60580]
+2022-04-16 22:05:35,516 - http_protocol.py[line:259] - DEBUG - HTTP response complete for ['172.17.18.203', 60580]
+2022-04-16 22:05:35,516 - runserver.py[line:141] - INFO - HTTP POST /user/add_friends/ 200 [0.16, 172.17.18.203:60580]
+2022-04-16 22:05:55,857 - http_protocol.py[line:160] - DEBUG - HTTP b'POST' request for ['172.17.18.203', 60580]
+2022-04-16 22:05:55,860 - LogMiddleware.py[line:35] - INFO - ************************************************* 下面是新的一条日志 ***************************************************
+2022-04-16 22:05:55,861 - LogMiddleware.py[line:37] - INFO - 拦截请求的地址：/user/add_friends/；请求的方法：POST
+2022-04-16 22:05:55,861 - LogMiddleware.py[line:38] - INFO - ==================================== headers 头信息 ====================================================
+2022-04-16 22:05:55,861 - LogMiddleware.py[line:42] - DEBUG - HTTP_AUTHORIZATION Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywidXNlck5hbWUiOiJcdTY1NjNcdTYyNTNcdTU0ZTUiLCJwaG9uZSI6MSwiYXZhdGFyIjoiaHR0cHM6Ly9pbWcyLmJhaWR1LmNvbS9pdC91PTI3NDkxMTk1NzksMzQ5OTE4ODEzMCZmbT0yNTMmZm10PWF1dG8mYXBwPTEzOCZmPUpQRUc_dz01MDAmaD00NzQiLCJpZGVudGl0eSI6Ilx1N2JhMVx1NzQwNlx1NTQ1OCIsImV4cCI6MTAwMDAwMDAwMDAwMDE2NTA0NTg2MjR9.h7X_GPzmJHCGNzOYdtjjdDdeAJmWBF0-xjjlY7vAq_A
+2022-04-16 22:05:55,861 - LogMiddleware.py[line:42] - DEBUG - HTTP_USER_AGENT PostmanRuntime/7.29.0
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT */*
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:42] - DEBUG - HTTP_POSTMAN_TOKEN e2ea29b4-27da-400a-a891-60c15b99e0eb
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:42] - DEBUG - HTTP_HOST 172.17.18.203:8000
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT_ENCODING gzip, deflate, br
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:42] - DEBUG - HTTP_CONNECTION keep-alive
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:43] - INFO - 代理IP：172.17.18.203
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:44] - INFO - 真实IP：None
+2022-04-16 22:05:55,862 - LogMiddleware.py[line:45] - INFO - ==================================== request body信息 ==================================================
+2022-04-16 22:05:55,863 - LogMiddleware.py[line:47] - INFO - params参数：<QueryDict: {}>
+2022-04-16 22:05:55,863 - LogMiddleware.py[line:51] - INFO - body参数：{
+    "to":2,
+    "message":"可选，附带消息"
+}
+
+2022-04-16 22:05:55,863 - LogMiddleware.py[line:54] - INFO - ================================== View视图函数内部信息 ================================================
+2022-04-16 22:05:55,949 - LogMiddleware.py[line:76] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常的日志       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:05:55,949 - LogMiddleware.py[line:78] - ERROR - {'code': 1, 'message': '对方暂时不在线,可能稍后处理好友邀请', 'data': {'用户名：': '哭泣哥'}}
+2022-04-16 22:05:55,949 - LogMiddleware.py[line:79] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常日志结束       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:05:55,950 - http_protocol.py[line:245] - DEBUG - HTTP 200 response started for ['172.17.18.203', 60580]
+2022-04-16 22:05:55,950 - http_protocol.py[line:213] - DEBUG - HTTP close for ['172.17.18.203', 60580]
+2022-04-16 22:05:55,950 - http_protocol.py[line:259] - DEBUG - HTTP response complete for ['172.17.18.203', 60580]
+2022-04-16 22:05:55,950 - runserver.py[line:141] - INFO - HTTP POST /user/add_friends/ 200 [0.09, 172.17.18.203:60580]
+2022-04-16 22:06:20,890 - http_protocol.py[line:160] - DEBUG - HTTP b'POST' request for ['172.17.18.203', 60580]
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:35] - INFO - ************************************************* 下面是新的一条日志 ***************************************************
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:37] - INFO - 拦截请求的地址：/user/add_friends/；请求的方法：POST
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:38] - INFO - ==================================== headers 头信息 ====================================================
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_AUTHORIZATION Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywidXNlck5hbWUiOiJcdTY1NjNcdTYyNTNcdTU0ZTUiLCJwaG9uZSI6MSwiYXZhdGFyIjoiaHR0cHM6Ly9pbWcyLmJhaWR1LmNvbS9pdC91PTI3NDkxMTk1NzksMzQ5OTE4ODEzMCZmbT0yNTMmZm10PWF1dG8mYXBwPTEzOCZmPUpQRUc_dz01MDAmaD00NzQiLCJpZGVudGl0eSI6Ilx1N2JhMVx1NzQwNlx1NTQ1OCIsImV4cCI6MTAwMDAwMDAwMDAwMDE2NTA0NTg2MjR9.h7X_GPzmJHCGNzOYdtjjdDdeAJmWBF0-xjjlY7vAq_A
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_USER_AGENT PostmanRuntime/7.29.0
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT */*
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_POSTMAN_TOKEN 0d9672d1-2714-445d-b112-0d1dbb176219
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_HOST 172.17.18.203:8000
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_ACCEPT_ENCODING gzip, deflate, br
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:42] - DEBUG - HTTP_CONNECTION keep-alive
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:43] - INFO - 代理IP：172.17.18.203
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:44] - INFO - 真实IP：None
+2022-04-16 22:06:20,901 - LogMiddleware.py[line:45] - INFO - ==================================== request body信息 ==================================================
+2022-04-16 22:06:20,902 - LogMiddleware.py[line:47] - INFO - params参数：<QueryDict: {}>
+2022-04-16 22:06:20,902 - LogMiddleware.py[line:51] - INFO - body参数：{
+    "to":2,
+    "message":"可选，附带消息"
+}
+
+2022-04-16 22:06:20,902 - LogMiddleware.py[line:54] - INFO - ================================== View视图函数内部信息 ================================================
+2022-04-16 22:06:21,021 - LogMiddleware.py[line:76] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常的日志       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:06:21,022 - LogMiddleware.py[line:78] - ERROR - {'code': 1, 'message': '对方暂时不在线,可能稍后处理好友邀请', 'data': {'用户名：': '哭泣哥'}}
+2022-04-16 22:06:21,022 - LogMiddleware.py[line:79] - ERROR - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      正常日志结束       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2022-04-16 22:06:21,022 - http_protocol.py[line:245] - DEBUG - HTTP 200 response started for ['172.17.18.203', 60580]
+2022-04-16 22:06:21,022 - http_protocol.py[line:213] - DEBUG - HTTP close for ['172.17.18.203', 60580]
+2022-04-16 22:06:21,022 - http_protocol.py[line:259] - DEBUG - HTTP response complete for ['172.17.18.203', 60580]
+2022-04-16 22:06:21,023 - runserver.py[line:141] - INFO - HTTP POST /user/add_friends/ 200 [0.13, 172.17.18.203:60580]
+2022-04-16 22:15:40,981 - autoreload.py[line:251] - INFO - E:\Channels\Channels\settings.py changed, reloading.

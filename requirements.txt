@@ -1,0 +1,9 @@
+Django~=3.2.9
+PyJWT~=2.3.0
+asgiref~=3.4.1
+channels~=2.4.0
+djangorestframework~=3.13.1
+future~=0.18.2
+mysqlclient~=2.1.0
+django-cors-headers~=3.11.0
+redis~=4.2.2
